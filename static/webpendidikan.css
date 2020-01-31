@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 900px;
+  margin: auto;
+}
+
+header {
+  width: 900px;
+  height: 250px;
+  margin: auto;
+}
+header img {
+  width: 900px;
+  height: 250px;
+  margin: auto;
+}
+
+menu {
+  width: 880px;
+  height: 30px;
+  background: #f2f2f2;
+  padding: 10px;
+}
+
+menu li {
+  list-style: none;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #333;
+  padding: 0 35px;
+}
+menu li a {
+  text-decoration: none;
+  margin: 0px;
+  color: black;
+}
+
+menu li a:hover {
+  color: orange;
+}
+
+.recomended {
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.recomended h1 {
+  text-align: center;
+  color: #f2f2f2;
+  margin-top: 10px;
+}
+
+.recomended h3 {
+  color: seashell;
+  margin: 0px 5px 5px 15px;
+}
+.recomended .recomendedKiri {
+  width: 420px;
+  float: left;
+  margin: 5px 5px 5px 15px;
+}
+
+.recomended img {
+  width: 400px;
+  height: 200px;
+  margin: 5px 5px 5px 15px;
+}
+.recomendedKiri p {
+  width: 400px;
+  text-align: justify;
+  color: #f2f2f2;
+  margin: 5px 5px 5px 15px;
+}
+
+ul {
+  margin-left: 15px;
+}
+
+.recomended .recomendedKanan {
+  width: 420px;
+  float: right;
+}
+
+.recomendedKanan img {
+  width: 400px;
+  height: 200px;
+  margin: 10px 15px 5px 0px;
+}
+
+.recomendedKanan h3 {
+  margin: 0px 15px 5px 0px;
+}
+
+.recomendedKanan p {
+  color: #f2f2f2;
+  margin: 5px 15px 5px 0px;
+  text-align: justify;
+}
+.recomended a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.recomended a:hover {
+  color: orange;
+}
+
+.barBawah {
+  background-color: #f2f2f2;
+  width: 350px;
+  height: 800px;
+  float: left;
+}
+
+.barBawah h1 {
+  float: left;
+  margin: 10px 5px 5px 28px;
+}
+
+.barBawah p {
+  float: left;
+  padding: 0px 30px 5px 30px;
+  text-align: justify;
+}
+
+.barBawahKanan {
+  background-color: orange;
+  float: left;
+  width: 550px;
+  height: 800px;
+}

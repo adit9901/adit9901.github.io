@@ -1,0 +1,162 @@
+.table-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 125px;
+}
+
+.table-1 img {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20;
+  overflow: hidden;
+}
+
+.contact {
+  border-width: 3px;
+  border-color: #34c6ec;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.contact:hover #cus {
+  color: white;
+}
+
+.contact:hover {
+  background-color: #34c6ec;
+}
+
+li {
+  float: right;
+  font-family: montserrat;
+  font-weight: 500;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  margin: 14px 16px;
+  text-decoration: none;
+}
+
+#cus {
+  color: #34c6ec;
+}
+
+li:hover {
+  border-top: 2px solid#34c6ec;
+}
+
+li a:hover {
+  color: #34c6ec;
+}
+
+.headline1 {
+  display: flex;
+  justify-content: center;
+}
+
+.headline2 {
+  position: absolute;
+  background-color: yellow;
+  top: 20;
+  left: 20;
+}
+
+.headline-content h1 {
+  font-family: montserrat;
+  font-weight: bolder;
+  color: white;
+  font-size: 60px;
+  margin: 0;
+}
+
+.headline p {
+  font-family: montserrat;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.headline-content {
+  margin: 0px 0px 0px 120px;
+  background-image: url('../../asset-UB-project/Group_29.jpg');
+  background-size: 100%;
+  background-position: center;
+  object-fit: contain;
+  width: 88.5%;
+  background-repeat: no-repeat;
+  height: 95vh;
+}
+
+.content {
+  position: absolute;
+  top: 355px;
+  width: 1500px;
+  left: 280px;
+}
+
+.button2:hover {
+  background-color: white;
+  color: #34c6ec;
+}
+
+.button2 {
+  font-family: montserrat;
+  background-color: #34c6ec;
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.button2 a:hover {
+  color: black;
+}
+
+.icon .icon1:hover img {
+  color: #34c6ec;
+}
+
+.icon {
+  position: relative;
+  left: 1550px;
+  bottom: 290px;
+  width: 30px;
+}
+
+.icon .icon1 {
+  position: relative;
+  bottom: 40px;
+  width: 40px;
+  right: 5px;
+}
+
+.icon .icon2 {
+  position: relative;
+  bottom: 25px;
+  width: 100px;
+  right: 5px;
+}
+
+.Card {
+  font-family: montserrat;
+}
+
+.Card h2 {
+  color: #34c6ec;
+  padding-left: 1000px;
+}
+
+.Card h1 {
+  color: #707070;
+  padding-left: 920px;
+}
