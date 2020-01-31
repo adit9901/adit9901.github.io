@@ -90,14 +90,15 @@ li a:hover {
   background-size: 100%;
   background-position: center;
   object-fit: contain;
-  width: 88.5%;
+  width: 87%;
   background-repeat: no-repeat;
-  height: 95vh;
+  height: 85vh;
+  border-radius: 25px;
 }
 
 .content {
   position: absolute;
-  top: 355px;
+  top: 270px;
   width: 1500px;
   left: 280px;
 }
@@ -128,8 +129,8 @@ li a:hover {
 
 .icon {
   position: relative;
-  left: 1550px;
-  bottom: 290px;
+  left: 1350px;
+  bottom: 300px;
   width: 30px;
 }
 
@@ -153,10 +154,14 @@ li a:hover {
 
 .Card h2 {
   color: #34c6ec;
-  padding-left: 1000px;
+  padding-left: 900px;
 }
 
 .Card h1 {
   color: #707070;
-  padding-left: 920px;
+  padding-left: 825px;
+}
+
+.Card img {
+  padding-left: 915px;
 }
